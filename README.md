@@ -15,3 +15,10 @@ Launch the app from the Terminal:
 |POST|/todos|Create a new todo
 |GET|/todos/:id|Retrieve a todo task
 |PUT|/todos/:id|Update a todo task
+
+## Testing API
+
+You can test API using cURL
+
+    $ curl https://your.api.host/todos
+
