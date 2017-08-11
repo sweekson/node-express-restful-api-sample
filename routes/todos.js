@@ -80,7 +80,7 @@ router.put('/todos/:id', function (req, res) {
       title: req.body.title || todo.title,
       notes: req.body.notes || todo.notes,
       done: req.body.done || todo.done,
-      starred: req.body.starred || todo.done,
+      starred: req.body.starred || todo.starred,
     });
     
     fs.writeFile(file, JSON.stringify(todos, null, 2), (err, text) => {
